@@ -8,5 +8,3 @@ all: $(PROJECT_NAME).elf
 .PHONY: clean
 clean:
 	rm -f $(PROJECT_NAME).elf && rm -rf obj_dir
-
-
